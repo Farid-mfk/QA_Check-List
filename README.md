@@ -99,25 +99,30 @@ Check-list for facebook.com app (Log In, Sign Up, Forgot Password functions)
   # “New password” text field
 
 49.	Verify there is a validation message for empty “New password” text field.
-50.	Verify a maximum length of the symbols for the “New password” text field
-51.	Verify a minimum length of the symbols for the “New password” text field
-52.	Verify there is a validation message for the maximum + 1 symbol for the “New password” text field
-53.	Verify a maximum – 1 symbol for the “New password” text field
+50.	Verify a maximum length of the symbols for the “New password” text field.
+51.	Verify a minimum length of the symbols for the “New password” text field.
+52.	Verify there is a validation message for the maximum + 1 symbol for the “New password” text field.
+53.	Verify a maximum – 1 symbol for the “New password” text field.
 54.	Verify the “New password” text field is allowed for the input: Latin letters, Russian letters, digits, lower-case letters, upper-case letters, spec symbols.
 55.	Verify spaces in “New password” text field are not truncated they should be recognized as the part of password.
-56.	Verify the “New password” text field is not allowed for the input tags (<script>alert('test script entered into the [fieldname]')</script>)
+56.	Verify the “New password” text field is not allowed for the input tags (<script>alert('test script entered into the [fieldname]')</script>).
 57.	Verify the “New password” text field is not allowed for the input wildcards and accented chars.
 58.	Verify it is possible to copy-pasted the password.
-59.	Verify that the password is in encrypted form when entered
+59.	Verify that the password is in encrypted form when entered.
 
   # “Birthday” drop-downs
 
 60.	Verify that the current date is set by default.
-61.	Verify it is possible to enter a valid date of birth
+61.	Verify it is possible to enter a valid date of birth.
 62.	Verify a validation icon appears, if the date of birth is greater than current date.
-63.	Verify it is impossible to choose several values from the drop-downs
-64.	Verify it is impossible to leave the drop-downs empty
-65.	Verify a validation icon appears, if to choose incorrect “Date” values for the month ‘February’ (e.g. 30-31 February) 
+63.	Verify it is impossible to choose several values from the drop-downs.
+64.	Verify it is impossible to leave the drop-downs empty.
+65.	Verify a validation icon appears, if to choose incorrect “Date” values for the month ‘February’ (e.g. 30-31 February).
+66.	Verify drop-down "Month" opens and contains the list of months to select.
+67.	Verify drop-down "Day" opens and contains the list of dates to select.
+68.	Verify drop-down "Year" opens and contains the list of years to select.
+69.	Verify values from the "Month", "Day", "Year" drop-downs may be preselected by arrow keys and then selected by "Enter".
+72. Verify values from the "Month", "Day", "Year" drop-downs may be preselected by entering the first letter from the keyboard.
 
   # “Gender” radio buttons
 
@@ -131,5 +136,6 @@ Check-list for facebook.com app (Log In, Sign Up, Forgot Password functions)
 70.	Verify location of the “Forgot password” link
 71.	Verify the “Forgot password” link is active and redirect to the “Restore password” page.
 72.	Verify if the link to change the password is sent to the user’s registered email or phone only.
-73.	Verify if the new password matches with required specifications for characters (e.g. special characters, digits, etc.)
-74.	Verify if the login is possible with the newly changed password.
+73.	Check for user authentication and authorization availability. 
+74.	Verify if the new password matches with required specifications for characters (e.g. special characters, digits, etc.)
+75.	Verify if the login is possible with the newly changed password.
