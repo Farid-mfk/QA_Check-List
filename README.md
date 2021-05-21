@@ -126,16 +126,16 @@ Check-list for facebook.com app (Log In, Sign Up, Forgot Password functions)
 
   # “Gender” radio buttons
 
-66.	Verify the alignment of the radio button control on the form.
-67.	Verify that you can select only one radio button (“Female”, “Male”, “Other”)
-68.	Verify a warning icon appears for empty radio buttons
-69.	Verify a multiple radio buttons choice is impossible.
+73.	Verify the alignment of the radio button control on the form.
+74.	67.	Verify that you can select only one radio button (“Female”, “Male”, “Other”)
+75.	Verify a warning icon appears for empty radio buttons
+76.	Verify a multiple radio buttons choice is impossible.
 
   # Forgot Password
 
-70.	Verify location of the “Forgot password” link
-71.	Verify the “Forgot password” link is active and redirect to the “Restore password” page.
-72.	Verify if the link to change the password is sent to the user’s registered email or phone only.
-73.	Check for user authentication and authorization availability. 
-74.	Verify if the new password matches with required specifications for characters (e.g. special characters, digits, etc.)
-75.	Verify if the login is possible with the newly changed password.
+77.	Verify location of the “Forgot password” link
+78.	71.	Verify the “Forgot password” link is active and redirect to the “Restore password” page.
+79.	Verify if the link to change the password is sent to the user’s registered email or phone only.
+80.	Check for user authentication and authorization availability. 
+81.	Verify if the new password matches with required specifications for characters (e.g. special characters, digits, etc.)
+82.	Verify if the login is possible with the newly changed password.
